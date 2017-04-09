@@ -239,11 +239,14 @@
 /* Content elements */
 
 #home .bg-img-1 {
-	background-image: url(../img/slides/s1.jpg);
+	padding: 100px;
+	background-image: url(../img/slides/s1.png);
 }
 #home .bg-img-2 {
+	padding: 200px;
 	background-image: url(../img/slides/s2.jpg);
 }
 #home .bg-img-3 {
+	padding: 100px;
 	background-image: url(../img/slides/s3.jpg);
 }
