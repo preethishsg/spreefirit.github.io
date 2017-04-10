@@ -379,7 +379,11 @@ jQuery(function ($) { "use strict";
 		var marker = new google.maps.Marker({
 			position: myLatLng,
 			map: map,
-			icon: 'img/location-icon.png',
+			icon: {
+					 size: new google.maps.Size(30, 30),
+					 scaledSize: new google.maps.Size(30, 30),
+					 url: 'img/location-icon.png'
+				 },
 			title: 'spreefirit'
 		});
 
