@@ -286,7 +286,7 @@ jQuery(function ($) { "use strict";
 
 	function initialize() {
 
-		var myLatLng = new google.maps.LatLng(12.9781654, 77.6399173);
+		var myLatLng = new google.maps.LatLng(12.978253, 77.642102);
 
 		var roadAtlasStyles = [{
 			"featureType": "landscape",
@@ -359,14 +359,15 @@ jQuery(function ($) { "use strict";
 		}];
 
 		var mapOptions = {
-			zoom: 14,
+			zoom: 16,
 			center: myLatLng,
 			disableDefaultUI: true,
 			scrollwheel: false,
-			navigationControl: false,
-			mapTypeControl: false,
-			scaleControl: false,
-			draggable: false,
+			zoomControl: true,
+			navigationControl: true,
+			mapTypeControl: true,
+			scaleControl: true,
+			draggable: true,
 			mapTypeControlOptions: {
 				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'roadatlas']
 			}
@@ -379,7 +380,7 @@ jQuery(function ($) { "use strict";
 			position: myLatLng,
 			map: map,
 			icon: 'img/location-icon.png',
-			title: '',
+			title: 'spreefirit'
 		});
 
 
