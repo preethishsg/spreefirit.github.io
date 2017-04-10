@@ -1125,7 +1125,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 .social-icon {
-    padding: 60px 0 35px;
+    padding: 0 0 50px;
 }
 
 .social-icon > ul {
@@ -1138,7 +1138,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-icon > ul > li > a {
-    background-color: #26292e;
+    /*background-color: #26292e;*/
     display: block;
     height: 70px;
     width: 70px;
