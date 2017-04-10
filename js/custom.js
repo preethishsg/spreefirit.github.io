@@ -383,11 +383,12 @@ jQuery(function ($) { "use strict";
 					//  size: new google.maps.Size(30, 30),
 					//  scaledSize: new google.maps.Size(30, 30),
 
-					  labelOrigin: new google.maps.Point(11, 30),
 				    url: 'img/location-icon.png',
 				    size: new google.maps.Size(40, 40),
+						scaledSize: new google.maps.Size(40, 40),
 				    origin: new google.maps.Point(0, 0),
-				    anchor: new google.maps.Point(20, 20),
+						labelOrigin: new google.maps.Point(15, 35),
+				    anchor: new google.maps.Point(25, 25),
 				 },
 			label: {
 					  fontWeight: 'bold',
