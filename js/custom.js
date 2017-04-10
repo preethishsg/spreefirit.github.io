@@ -380,10 +380,22 @@ jQuery(function ($) { "use strict";
 			position: myLatLng,
 			map: map,
 			icon: {
-					 size: new google.maps.Size(30, 30),
-					 scaledSize: new google.maps.Size(30, 30),
-					 url: 'img/location-icon.png'
+					//  size: new google.maps.Size(30, 30),
+					//  scaledSize: new google.maps.Size(30, 30),
+
+					  labelOrigin: new google.maps.Point(11, 30),
+				    url: 'img/location-icon.png',
+				    size: new google.maps.Size(40, 40),
+				    origin: new google.maps.Point(0, 0),
+				    anchor: new google.maps.Point(20, 20),
 				 },
+			label: {
+					  fontWeight: 'bold',
+						fontFamily: 'Brush Script MT',
+						fontSize: '21px',
+						color: '#72bf72',
+	     		  text: 'spreefirit',
+	   },
 			title: 'spreefirit'
 		});
 
