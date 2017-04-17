@@ -292,7 +292,7 @@ jQuery(function ($) { "use strict";
 			"featureType": "landscape",
 			"elementType": "geometry.fill",
 			"stylers": [{
-				"color": "#2F3238"
+				"color": "#008080"
 			}]
 		}, {
 			"elementType": "labels.text.fill",
